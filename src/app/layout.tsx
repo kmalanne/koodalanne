@@ -2,7 +2,7 @@ import './globals.css'
 
 export const metadata = {
   title: 'koodalanne',
-  description: 'koodalanne freelance developer website',
+  description: 'koodalanne freelance software developer website',
   applicationName: 'koodalanne',
   referrer: 'origin-when-cross-origin',
   keywords: [
@@ -27,8 +27,6 @@ export const metadata = {
       'Tech lead',
       'Web-kehittäjä',
       'Ohjelmistokehittäjä',
-      'Kehittäjä',
-      'Koodari',
     ],
   ],
   authors: [{ name: 'Kai-Mikael Alanne' }],
@@ -37,7 +35,9 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="bg-black">
+        <main>{children}</main>
+      </body>
     </html>
   )
 }
