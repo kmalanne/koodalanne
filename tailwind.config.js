@@ -8,7 +8,10 @@ module.exports = {
     colors: {
       black: '#000000',
       miamiBlue: '#0bd3d3',
-      miamiPink: '#f890e7',
+      miamiPink: {
+        DEFAULT: '#f890e7',
+        light: 'rgba(248,144,231,0.7)',
+      },
       white: '#ffffff',
     },
   },

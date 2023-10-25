@@ -37,6 +37,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body className="bg-black">
         <main>{children}</main>
+        <footer className="bottom-0 left-0 w-full flex items-center justify-center">
+          <span className="text-center text-white text-sm pb-2">koodalanne Oy, 3396808-5</span>
+        </footer>
       </body>
     </html>
   )
