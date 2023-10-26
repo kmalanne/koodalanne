@@ -24,7 +24,8 @@ export const ContactForm: React.FC = () => {
   })
 
   const [errors, setErrors] = useState<Error>({ email: false, message: false })
-  const [isSubmitted, setIsSubmitted] = useState(false)
+  const [isSubmitError, setSubmitError] = useState<boolean>(false)
+  const [isSubmitted, setSubmitted] = useState<boolean>(false)
 
   const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target
@@ -34,13 +35,40 @@ export const ContactForm: React.FC = () => {
     }
   }
 
-  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
 
-    if (errors.email || errors.message || !formData.email || !formData.message) {
+    setErrors({ email: false, message: false })
+
+    const data = { ...formData }
+
+    if (formData.email.trim() === '') {
+      setErrors({ ...errors, email: true })
       return
     }
-    setIsSubmitted(true)
+
+    if (formData.message.trim() === '') {
+      setErrors({ ...errors, message: true })
+      return
+    }
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      })
+
+      if (response.ok) {
+        setSubmitted(true)
+      } else {
+        setSubmitError(true)
+      }
+    } catch (error) {
+      setSubmitError(true)
+    }
   }
 
   if (isSubmitted) {
@@ -78,7 +106,7 @@ export const ContactForm: React.FC = () => {
 
           <div className="mb-4">
             <label className="block text-lg font-bold mb-2" htmlFor="email">
-              Email*
+              Email <span className="text-miamiPink">*</span>
             </label>
             <input
               className={`shadow appearance-none border ${
@@ -109,7 +137,7 @@ export const ContactForm: React.FC = () => {
 
           <div>
             <label className="block text-lg font-bold mb-2" htmlFor="message">
-              Message*
+              Message <span className="text-miamiPink">*</span>
             </label>
             <textarea
               className={`shadow appearance-none border ${
@@ -125,11 +153,17 @@ export const ContactForm: React.FC = () => {
           </div>
         </div>
 
+        {isSubmitError && (
+          <div className="flex items-center justify-center mt-4 text-white">
+            Something went wrong. Try again or send an email.
+          </div>
+        )}
+
         <div className="flex items-center justify-center">
           <button
             className={`${
               errors.message || !formData.email || !formData.message
-                ? 'bg-miamiPink-light border-black'
+                ? 'bg-miamiPink-light border-black cursor-not-allowed'
                 : 'bg-miamiPink border-miamiPink hover:bg-black hover:text-white hover:border hover:border-miamiBlue'
             } w-full rounded-md inline-block mb-6 mt-6 px-3 py-6 text-center font-bold uppercase border `}
             type="submit"
