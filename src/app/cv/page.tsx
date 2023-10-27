@@ -1,4 +1,11 @@
+import type { Metadata } from 'next'
+
 import { pressStart2P } from '../font'
+
+export const metadata: Metadata = {
+  title: 'koodalanne CV',
+  description: 'Curriculum Vitae',
+}
 
 export default function cv() {
   return (

@@ -1,5 +1,12 @@
+import type { Metadata } from 'next'
+
 import { ContactForm } from '../../components/ContactForm'
 import { pressStart2P } from '../font'
+
+export const metadata: Metadata = {
+  title: 'koodalanne contact',
+  description: 'Contact koodalanne',
+}
 
 export default function cv() {
   return (
