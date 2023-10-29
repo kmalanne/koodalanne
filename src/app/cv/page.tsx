@@ -14,52 +14,72 @@ export default function cv() {
         <div className={pressStart2P.className}>
           <h1 className="text-4xl text-miamiPink mb-4">Curriculum Vitae</h1>
         </div>
-        <div className="bg-miamiBlue w-full md:w-3/4 lg:w-3/4 rounded-lg shadow-md p-4 md:p-8">
+
+        <div className="bg-miamiBlue w-full md:w-3/4 lg:w-3/4 p-4 md:p-8 rounded-lg shadow-md">
+          <h2 className="text-3xl mb-4">Bio</h2>
           <div className="mb-4">
+            <p>
+              Experienced Tech Lead and Fullstack Web Developer with a track record in leading
+              cross-functional teams and crafting dynamic web applications. Proficient in front-end
+              and back-end technologies. Experienced in cloud and devops engineering. Dedicated to
+              driving teams and individuals forward at delivering high quality software in close
+              collaboration with the client. Interested to learn new technologies and domains to
+              become even better leader and developer.
+            </p>
+          </div>
+        </div>
+
+        <div className="bg-miamiBlue w-full md:w-3/4 lg:w-3/4 mt-8 p-4 md:p-8 rounded-lg shadow-md">
+          <h2 className="text-3xl mb-4">Work experience</h2>
+          <div className="mb-6">
             <div className="flex justify-between text-2xl">
               <div className="font-bold">koodalanne Oy</div>
               <div>11/2023 -</div>
             </div>
             <div className="text-sm">Helsinki, Finland</div>
-            <div className="mt-4 font-bold text-lg">Freelance Software Developer</div>
-            <p>Software development in a senior/lead position.</p>
-            <div className="mt-4 font-bold text-lg">References: </div>
+            <p className="mt-4">Freelance software development in a senior/lead position.</p>
             <div className="mt-2">
-              <a
-                href="https://koodalanne.com"
-                className="mt-8 hover:text-miamiPink"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                koodalanne.com
-              </a>
-              <span> 2023</span>
+              <div className="mt-4 font-bold text-lg">
+                <a
+                  href="https://koodalanne.com"
+                  className="mt-8 hover:text-miamiPink"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  koodalanne.com
+                </a>
+                <span> 2023</span>
+              </div>
               <p>
                 Solo project. Koodalanne company website.
                 <br />
-                <strong>Skills:</strong> NextJS, TailwindCSS, Vercel
+                <br />
+                <strong>Skills:</strong> NextJS, Typescript, TailwindCSS, Vercel
               </p>
             </div>
             <div className="mt-4">
-              <a
-                href="https://pilvilinnanleipomo.fi"
-                className="mt-8 hover:text-miamiPink"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                pilvilinnanleipomo.fi
-              </a>
-              <span> 2023</span>
+              <div className="mt-4 font-bold text-lg">
+                <a
+                  href="https://pilvilinnanleipomo.fi"
+                  className="mt-8 hover:text-miamiPink"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  pilvilinnanleipomo.fi
+                </a>
+                <span> 2023</span>
+              </div>
               <p>
                 Solo project. Pilvilinnan leipomo home bakery website.
                 <br />
-                <strong>Skills:</strong> NextJS, Contentful CMS, GraphQL, CSS Modules, Vercel
+                <br />
+                <strong>Skills:</strong> NextJS, Typescript, GraphQL, CSS Modules, Contentful CMS,
+                Vercel
               </p>
             </div>
           </div>
-        </div>
-        <div className="bg-miamiBlue w-full mt-8 md:w-3/4 lg:w-3/4 rounded-lg shadow-md p-4 md:p-8">
-          <div className="mb-4">
+
+          <div className="mb-6">
             <div className="flex justify-between text-2xl">
               <div className="font-bold">Futurice Oy</div>
               <div>8/2016 - 11/2023</div>
@@ -89,9 +109,9 @@ export default function cv() {
               multiple years.
               <br />
               <br />
-              <strong>Skills:</strong> NodeJS, React, Typescript, CSS, PostgreSQL, Azure, Azure
-              Devops, Azure Data Factory Cypress, Terraform, Docker, Git, Jira, Project Management,
-              Scrum Master, Scrum, Software Architecture, Systems integrations, Agile
+              <strong>Skills:</strong> NodeJS, React, Typescript, SQL, HTML, CSS, PostgreSQL, Azure, Azure
+              Devops, Azure Data Factory, Cypress, Terraform, Docker, Git, Jira, Project Management,
+              Scrum Master, Scrum, Software Architecture, Systems Integrations, Agile
             </p>
             <div className="mt-4 font-bold text-lg">Frontend Web Developer 2016-2019</div>
             <p>
@@ -105,8 +125,7 @@ export default function cv() {
               Robot framework, Jenkins, Git, Jira, Scrum, Agile
             </p>
           </div>
-        </div>
-        <div className="bg-miamiBlue w-full mt-8 md:w-3/4 lg:w-3/4 rounded-lg shadow-md p-4 md:p-8">
+
           <div className="mb-4">
             <div className="flex justify-between text-2xl">
               <div className="font-bold">Leanware Oy</div>
@@ -123,24 +142,69 @@ export default function cv() {
               process.
               <br />
               <br />
-              <strong>Skills:</strong> NodeJS, NextJS, React, Typescript, CSS, GraphQL, Contentful
-              CMS, Heroku, Azure, Azure Devops, Github Actions, Terraform, Pulumi, Git, Jira, Tech
-              lead, Scrum Master, Scrum, Software Architecture, Agile
+              <strong>Skills:</strong> C#/.NET, Windows Forms, SQL, DB2, Oracle DB, MS SQL, Java, ASP.NET
+              MVC, Javascript, jQuery, HTML, CSS, EmberJS, Mentoring, Product Owner, Scrum, Agile
             </p>
           </div>
         </div>
-        <div className="bg-miamiBlue w-full mt-8 md:w-3/4 lg:w-3/4 rounded-lg shadow-md p-4 md:p-8">
+
+        <div className="bg-miamiBlue w-full md:w-3/4 lg:w-3/4 mt-8 p-4 md:p-8 rounded-lg shadow-md">
+          <h2 className="text-3xl mb-4">Education</h2>
           <div className="mb-4">
-            <div className="mt-4 font-bold text-lg">Languages:</div>
+            <div className="flex justify-between text-lg">
+              <div>
+                <strong>Master of Science (Tech),</strong> Tampere University of Technology
+              </div>
+              <div className="text-2xl">2012</div>
+            </div>
+            <div className="text-sm">Tampere, Finland</div>
+          </div>
+          <div className="mb-4">
+            <div className="flex justify-between text-lg">
+              <div>
+                <strong>Matriculation examination,</strong> Tampere classical upper secondary school
+              </div>
+              <div className="text-2xl">2006</div>
+            </div>
+            <div className="text-sm">Tampere, Finland</div>
+          </div>
+        </div>
+
+        <div className="bg-miamiBlue w-full md:w-3/4 lg:w-3/4 mt-8 p-4 md:p-8 rounded-lg shadow-md">
+          <h2 className="text-3xl mb-4">Certificates and courses</h2>
+          <div className="mb-4">
+            <div className="flex justify-between text-lg">
+              <div className="font-bold">Azure Fundamentals (AZ-900)</div>
+              <div className="text-2xl">2021</div>
+            </div>
+          </div>
+          <div className="mb-4">
+            <div className="flex justify-between text-lg">
+              <div className="font-bold">Professional Scrum Product Owner (PSPO)</div>
+              <div className="text-2xl">2017</div>
+            </div>
+          </div>
+          <div className="mb-4">
+            <div className="flex justify-between text-lg">
+              <div className="font-bold">Certified Scrum Master (CSM)</div>
+              <div className="text-2xl">2015</div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-miamiBlue w-full md:w-3/4 lg:w-3/4 mt-8 p-4 md:p-8 rounded-lg shadow-md">
+          <h2 className="text-3xl mb-4">Languages</h2>
+          <div className="mb-4">
             <p>
-              Finnish - excellent
+              <strong>Finnish</strong> - native
               <br />
-              English - excellent
+              <strong>English</strong> - full professional proficiency
               <br />
-              Swedish - satisfactory
+              <strong>Swedish</strong> - limited working proficiency
             </p>
           </div>
         </div>
+
         <a href="/" className="mt-8 text-xl text-miamiPink hover:text-miamiBlue">
           Back
         </a>
