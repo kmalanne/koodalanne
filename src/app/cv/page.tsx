@@ -4,7 +4,7 @@ import { pressStart2P } from '../font'
 
 export const metadata: Metadata = {
   title: 'koodalanne CV',
-  description: 'Curriculum Vitae',
+  description: 'Curriculum Vitae of Kai-Mikael Alanne',
 }
 
 export default function cv() {
