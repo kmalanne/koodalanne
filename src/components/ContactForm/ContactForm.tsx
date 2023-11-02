@@ -3,6 +3,8 @@
 import type { ChangeEvent, FormEvent } from 'react'
 import { useState } from 'react'
 
+import { LoadingIndicator } from '../LoadingIndicator'
+
 type FormData = {
   name: string
   email: string
@@ -24,6 +26,7 @@ export const ContactForm: React.FC = () => {
   })
 
   const [errors, setErrors] = useState<Error>({ email: false, message: false })
+  const [isSubmitting, setSubmitting] = useState<boolean>(false)
   const [isSubmitError, setSubmitError] = useState<boolean>(false)
   const [isSubmitted, setSubmitted] = useState<boolean>(false)
 
@@ -37,6 +40,8 @@ export const ContactForm: React.FC = () => {
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
+
+    setSubmitting(true)
 
     setErrors({ email: false, message: false })
 
@@ -69,6 +74,8 @@ export const ContactForm: React.FC = () => {
     } catch (error) {
       setSubmitError(true)
     }
+
+    setSubmitting(false)
   }
 
   if (isSubmitted) {
@@ -160,17 +167,23 @@ export const ContactForm: React.FC = () => {
         )}
 
         <div className="flex items-center justify-center">
-          <button
-            className={`${
-              errors.message || !formData.email || !formData.message
-                ? 'bg-miamiPink-light border-black cursor-not-allowed'
-                : 'bg-miamiPink border-miamiPink hover:bg-black hover:text-white hover:border hover:border-miamiBlue'
-            } w-full rounded-md inline-block mb-6 mt-6 px-3 py-6 text-center font-bold uppercase border `}
-            type="submit"
-            disabled={!formData.email && !formData.message}
-          >
-            Submit
-          </button>
+          {isSubmitting ? (
+            <div className="mt-6 mb-6">
+              <LoadingIndicator />
+            </div>
+          ) : (
+            <button
+              className={`${
+                errors.message || !formData.email || !formData.message
+                  ? 'bg-miamiPink-light border-black cursor-not-allowed'
+                  : 'bg-miamiPink border-miamiPink hover:bg-black hover:text-white hover:border hover:border-miamiBlue'
+              } w-full rounded-md inline-block mb-6 mt-6 px-3 py-6 text-center font-bold uppercase border `}
+              type="submit"
+              disabled={!formData.email && !formData.message}
+            >
+              Submit
+            </button>
+          )}
         </div>
       </form>
     </>
