@@ -2,7 +2,7 @@ import './globals.css'
 
 export const metadata = {
   title: 'koodalanne',
-  description: 'Kai-Mikael Alanne, a freelance software developer.',
+  description: 'Kai-Mikael Alanne, freelance software developer.',
   applicationName: 'koodalanne',
   referrer: 'origin-when-cross-origin',
   keywords: [
