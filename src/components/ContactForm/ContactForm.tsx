@@ -92,7 +92,7 @@ export const ContactForm: React.FC = () => {
         >
           koodalanne@gmail.com
         </a>{' '}
-        or fill the form:
+        or fill in the form:
       </div>
 
       <form className="w-full max-w-md" onSubmit={handleSubmit}>

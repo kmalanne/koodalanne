@@ -20,11 +20,11 @@ export default function cv() {
           <div className="mb-4">
             <p>
               Experienced Tech Lead and Fullstack Web Developer with a track record in leading
-              cross-functional teams and crafting dynamic web applications. Proficient in front-end
-              and back-end technologies. Experienced in cloud and devops engineering. Dedicated to
+              cross-functional teams and crafting dynamic web applications. Proficient in frontend
+              and backend technologies. Experienced in cloud and devops engineering. Dedicated to
               driving teams and individuals forward at delivering high quality software in close
               collaboration with the client. Interested to learn new technologies and domains to
-              become even better leader and developer.
+              become even better developer and leader.
             </p>
           </div>
         </div>
@@ -87,7 +87,7 @@ export default function cv() {
             <div className="text-sm">Helsinki / Tampere, Finland</div>
             <div className="mt-4 font-bold text-lg">Tech Lead 2022-2023</div>
             <p>
-              Technical lead in international multidisciplinary team working at energy sector
+              Technical lead in an international multidisciplinary team working at energy sector
               projects. My responsibilities were leading the team&apos;s technical planning and
               execution towards organisation goals, architectural design, frontend web development
               and cloud engineering. I provided support for product owner and the team, driving
@@ -109,9 +109,9 @@ export default function cv() {
               multiple years.
               <br />
               <br />
-              <strong>Skills:</strong> NodeJS, React, Typescript, SQL, HTML, CSS, PostgreSQL, Azure, Azure
-              Devops, Azure Data Factory, Cypress, Terraform, Docker, Git, Jira, Project Management,
-              Scrum Master, Scrum, Software Architecture, Systems Integrations, Agile
+              <strong>Skills:</strong> NodeJS, React, Typescript, SQL, HTML, CSS, PostgreSQL, Azure,
+              Azure Devops, Azure Data Factory, Cypress, Terraform, Docker, Git, Jira, Project
+              Management, Scrum Master, Scrum, Software Architecture, Systems Integrations, Agile
             </p>
             <div className="mt-4 font-bold text-lg">Frontend Web Developer 2016-2019</div>
             <p>
@@ -142,8 +142,9 @@ export default function cv() {
               process.
               <br />
               <br />
-              <strong>Skills:</strong> C#/.NET, Windows Forms, SQL, DB2, Oracle DB, MS SQL, Java, ASP.NET
-              MVC, Javascript, jQuery, HTML, CSS, EmberJS, Mentoring, Product Owner, Scrum, Agile
+              <strong>Skills:</strong> C#/.NET, Windows Forms, SQL, DB2, Oracle DB, MS SQL, Java,
+              ASP.NET MVC, Javascript, jQuery, HTML, CSS, EmberJS, Mentoring, Product Owner, Scrum,
+              Agile
             </p>
           </div>
         </div>
@@ -194,7 +195,7 @@ export default function cv() {
 
         <div className="bg-miamiBlue w-full md:w-3/4 lg:w-3/4 mt-8 p-4 md:p-8 rounded-lg shadow-md">
           <h2 className="text-3xl mb-4">Languages</h2>
-          <div className="mb-4">
+          <div className="mb-4 text-lg">
             <p>
               <strong>Finnish</strong> - native
               <br />
