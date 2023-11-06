@@ -6,6 +6,9 @@ import { pressStart2P } from '../font'
 export const metadata: Metadata = {
   title: 'koodalanne contact',
   description: 'Contact koodalanne.',
+  alternates: {
+    canonical: 'https://koodalanne.com/contact',
+  },
 }
 
 export default function cv() {

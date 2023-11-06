@@ -27,9 +27,22 @@ export const metadata = {
       'Tech lead',
       'Web-kehittäjä',
       'Ohjelmistokehittäjä',
+      'Finland',
+      'Suomi',
     ],
   ],
   authors: [{ name: 'Kai-Mikael Alanne' }],
+  openGraph: {
+    title: 'koodalanne',
+    description: 'Kai-Mikael Alanne, freelance software developer.',
+    url: 'https://koodalanne.com',
+    siteName: "koodalanne's site",
+    locale: 'en_US',
+    type: 'website',
+  },
+  icons: {
+    shortcut: 'https://koodalanne.com/favicon.ico',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
