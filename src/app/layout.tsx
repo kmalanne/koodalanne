@@ -1,6 +1,7 @@
 import './globals.css'
 
 export const metadata = {
+  metadataBase: new URL('https://koodalanne.com'),
   title: 'koodalanne',
   description: 'Kai-Mikael Alanne, freelance software developer.',
   applicationName: 'koodalanne',
@@ -39,9 +40,10 @@ export const metadata = {
     siteName: "koodalanne's site",
     locale: 'en_US',
     type: 'website',
+    images: '/images/og.png',
   },
   icons: {
-    shortcut: 'https://koodalanne.com/favicon.ico',
+    shortcut: '/favicon.ico',
   },
 }
 

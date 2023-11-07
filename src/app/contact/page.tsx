@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'koodalanne contact',
   description: 'Contact koodalanne.',
   alternates: {
-    canonical: 'https://koodalanne.com/contact',
+    canonical: '/contact',
   },
 }
 

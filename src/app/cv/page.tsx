@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'koodalanne CV',
   description: 'Curriculum Vitae of Kai-Mikael Alanne.',
   alternates: {
-    canonical: 'https://koodalanne.com/cv',
+    canonical: '/cv',
   },
 }
 
