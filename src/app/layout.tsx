@@ -3,7 +3,7 @@ import './globals.css'
 export const metadata = {
   metadataBase: new URL('https://koodalanne.com'),
   title: 'koodalanne',
-  description: 'Kai-Mikael Alanne, freelance software developer.',
+  description: 'Kai-Mikael Alanne, an experienced freelance software developer helping you achieve brilliant results.',
   applicationName: 'koodalanne',
   referrer: 'origin-when-cross-origin',
   keywords: [
@@ -35,7 +35,7 @@ export const metadata = {
   authors: [{ name: 'Kai-Mikael Alanne' }],
   openGraph: {
     title: 'koodalanne',
-    description: 'Kai-Mikael Alanne, freelance software developer.',
+    description: 'Kai-Mikael Alanne, an experienced freelance software developer helping you achieve brilliant results',
     url: 'https://koodalanne.com',
     siteName: "koodalanne's site",
     locale: 'en_US',

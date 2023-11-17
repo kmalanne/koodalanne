@@ -1,6 +1,12 @@
+import type { Metadata } from 'next'
 import Image from 'next/image'
 
 import { pressStart2P } from './font'
+
+export const metadata: Metadata = {
+  description:
+    'Kai-Mikael Alanne, an experienced freelance software developer helping you achieve brilliant results.',
+}
 
 export default function Home() {
   return (
