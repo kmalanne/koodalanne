@@ -37,13 +37,13 @@ export const metadata = {
     title: 'koodalanne',
     description: 'Kai-Mikael Alanne, an experienced freelance software developer helping you achieve brilliant results',
     url: 'https://koodalanne.com',
-    siteName: "koodalanne's site",
+    siteName: "koodalanne",
     locale: 'en_US',
     type: 'website',
     images: '/images/og.png',
   },
   icons: {
-    shortcut: '/favicon.ico',
+    shortcut: 'images/favicon.ico',
   },
 }
 

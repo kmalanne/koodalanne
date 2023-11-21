@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { pressStart2P } from './font'
 
 export const metadata: Metadata = {
+  title: 'koodalanne',
   description:
     'Kai-Mikael Alanne, an experienced freelance software developer helping you achieve brilliant results.',
 }
