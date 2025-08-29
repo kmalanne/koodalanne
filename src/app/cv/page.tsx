@@ -22,17 +22,20 @@ export default function cv() {
           <h2 className="text-3xl mb-4">Bio</h2>
           <div className="mb-4">
             <p>
-              Experienced Tech Lead and Fullstack Web Developer with a track record in leading
-              cross-functional teams and crafting dynamic web applications. Proficient in frontend
-              and backend technologies. Experienced in cloud and devops engineering. Dedicated to
-              driving teams and individuals forward at delivering high quality software in close
-              collaboration with the client. Interested to learn new technologies and domains to
-              become even better developer and leader.
+              Experienced tech lead and full-stack software developer with a track record in leading
+              cross-functional teams and crafting dynamic, data-driven applications in various
+              domains. I am proficient in frontend and backend technologies, with additional
+              experience in cloud, DevOps engineering, and agile ways of working. Dedicated to
+              driving teams and individuals forward in delivering high-quality software and solving
+              business problems—often by leveraging data and modern AI capabilities—in close
+              collaboration with the client. I am always eager to explore new technologies and
+              domains, including data and AI, to continuously grow and become an even better version
+              of myself.
             </p>
           </div>
         </div>
 
-  <div className="bg-miami-blue w-full md:w-3/4 lg:w-3/4 mt-8 p-4 md:p-8 rounded-lg shadow-sm">
+        <div className="bg-miami-blue w-full md:w-3/4 lg:w-3/4 mt-8 p-4 md:p-8 rounded-lg shadow-sm">
           <h2 className="text-3xl mb-4">Work experience</h2>
           <div className="mb-6">
             <div className="flex justify-between text-2xl">
@@ -41,45 +44,21 @@ export default function cv() {
             </div>
             <div className="text-sm">Helsinki, Finland</div>
             <p className="mt-4">Freelance software development in a senior/lead position.</p>
-            <div className="mt-2">
-              <div className="mt-4 font-bold text-lg">
-                <a
-                  href="https://koodalanne.com"
-                  className="mt-8 hover:text-miami-pink"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  koodalanne.com
-                </a>
-                <span> 2023</span>
-              </div>
-              <p>
-                Solo project. Koodalanne company website.
-                <br />
-                <br />
-                <strong>Skills:</strong> NextJS, Typescript, TailwindCSS, Vercel
-              </p>
-            </div>
-            <div className="mt-4">
-              <div className="mt-4 font-bold text-lg">
-                <a
-                  href="https://pilvilinnanleipomo.fi"
-                  className="mt-8 hover:text-miami-pink"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  pilvilinnanleipomo.fi
-                </a>
-                <span> 2023</span>
-              </div>
-              <p>
-                Solo project. Pilvilinnan leipomo home bakery website.
-                <br />
-                <br />
-                <strong>Skills:</strong> NextJS, Typescript, GraphQL, CSS Modules, Contentful CMS,
-                Vercel
-              </p>
-            </div>
+            <div className="mt-4 font-bold text-lg">Confidential 11/2023-</div>
+            <p>
+              Lead developer in human resource sector projects in multidisciplinary team. Mobile,
+              web and backend development while guiding the team&apos;s development towards
+              organizational goals. As a lead I was mainly responsible for feature development,
+              improving code quality and practices, helping product owner with specification,
+              solving problems and helping team members with their issues while planning the future
+              architecture and goals. At the same time, I coached multiple new team members in their
+              development journey.
+              <br />
+              <br />
+              <strong>Skills:</strong> NodeJS, React Native, Expo, React, Typescript, CSS, C#/.NET,
+              ASP.NET Core, SQL, MSSQL, Docker, Azure, Bitbucket, Github, Git, iOS, Android, Jira,
+              Tech lead, AI, Scrum, Software Architecture, Agile
+            </p>
           </div>
 
           <div className="mb-6">
@@ -209,7 +188,7 @@ export default function cv() {
           </div>
         </div>
 
-        <a href="/" className="mt-8 text-xl text-miami-pink hover:text-miami-blue">
+        <a href="/" className="mt-8 text-xl text-miami-pink! hover:text-miami-blue!">
           Back
         </a>
       </div>

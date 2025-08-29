@@ -39,16 +39,16 @@ export default function Home() {
             <br />
             Fullstack web, cloud, data & team leading.
             <br />
-            <a href="/cv" className="text-miami-blue hover:text-miami-pink">
+            {/* <a href="/cv" className="text-miami-blue hover:text-miami-pink">
               Check my CV.
-            </a>
+            </a> */}
           </p>
           <div className="flex flex-row justify-center items-center">
             <a
-              href="/contact"
-              className="w-full rounded-md inline-block mb-6 mt-6 px-3 py-6 text-center font-bold uppercase bg-miami-blue border border-black hover:bg-black hover:text-white hover:border hover:border-miami-pink"
+              href="/cv"
+              className="w-full rounded-md inline-block mb-6 mt-6 px-3 py-6 text-center font-bold uppercase bg-miami-blue border border-black hover:bg-black hover:text-white! hover:border hover:border-miami-pink"
             >
-              <span className="w-1/1">Contact me</span>
+              <span className="w-1/1">Curriculum Vitae</span>
             </a>
             <div className="flex flex-col justify-center items-center ml-6">
               <a

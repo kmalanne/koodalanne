@@ -1,5 +1,6 @@
-
 @import "tailwindcss";
+
+@custom-variant hover (&:hover);
 
 @theme {
   --color-black: #000000;
@@ -9,10 +10,12 @@
   --color-white: #ffffff;
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+@layer base {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
 }
 
 html,

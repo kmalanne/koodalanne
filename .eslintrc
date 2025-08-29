@@ -111,7 +111,8 @@
               "attributes": false
             }
           }
-        ]
+        ],
+        "@typescript-eslint/triple-slash-reference": "off"
       }
     }
   ]
