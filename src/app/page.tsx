@@ -103,7 +103,7 @@ export default function Home() {
             <div className="flex flex-row justify-center items-center">
               <a
                 href="/cv"
-                className="w-full rounded-md inline-block mb-6 mt-6 px-3 py-6 text-center font-bold uppercase bg-miami-blue border border-black hover:bg-black hover:text-white hover:border hover:border-miami-pink"
+                className="w-full rounded-md inline-block mb-6 mt-6 px-3 py-6 text-center font-bold uppercase bg-miami-blue border border-black hover:bg-black hover:text-white! hover:border hover:border-miami-pink"
                 aria-label="Go to Curriculum Vitae page"
               >
                 <span className="w-1/1">Curriculum Vitae</span>
