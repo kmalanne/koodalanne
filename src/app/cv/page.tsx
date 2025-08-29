@@ -15,10 +15,10 @@ export default function cv() {
     <section id="curriculum-vitae">
       <div className="min-h-screen flex flex-col items-center justify-center p-4 md:p-8">
         <div className={pressStart2P.className}>
-          <h1 className="text-4xl text-miamiPink mb-4">Curriculum Vitae</h1>
+          <h1 className="text-4xl text-miami-pink mb-4">Curriculum Vitae</h1>
         </div>
 
-        <div className="bg-miamiBlue w-full md:w-3/4 lg:w-3/4 p-4 md:p-8 rounded-lg shadow-md">
+        <div className="bg-miami-blue w-full md:w-3/4 lg:w-3/4 p-4 md:p-8 rounded-lg shadow-sm">
           <h2 className="text-3xl mb-4">Bio</h2>
           <div className="mb-4">
             <p>
@@ -32,7 +32,7 @@ export default function cv() {
           </div>
         </div>
 
-        <div className="bg-miamiBlue w-full md:w-3/4 lg:w-3/4 mt-8 p-4 md:p-8 rounded-lg shadow-md">
+  <div className="bg-miami-blue w-full md:w-3/4 lg:w-3/4 mt-8 p-4 md:p-8 rounded-lg shadow-sm">
           <h2 className="text-3xl mb-4">Work experience</h2>
           <div className="mb-6">
             <div className="flex justify-between text-2xl">
@@ -45,7 +45,7 @@ export default function cv() {
               <div className="mt-4 font-bold text-lg">
                 <a
                   href="https://koodalanne.com"
-                  className="mt-8 hover:text-miamiPink"
+                  className="mt-8 hover:text-miami-pink"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -64,7 +64,7 @@ export default function cv() {
               <div className="mt-4 font-bold text-lg">
                 <a
                   href="https://pilvilinnanleipomo.fi"
-                  className="mt-8 hover:text-miamiPink"
+                  className="mt-8 hover:text-miami-pink"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -152,7 +152,7 @@ export default function cv() {
           </div>
         </div>
 
-        <div className="bg-miamiBlue w-full md:w-3/4 lg:w-3/4 mt-8 p-4 md:p-8 rounded-lg shadow-md">
+        <div className="bg-miami-blue w-full md:w-3/4 lg:w-3/4 mt-8 p-4 md:p-8 rounded-lg shadow-md">
           <h2 className="text-3xl mb-4">Education</h2>
           <div className="mb-4">
             <div className="flex justify-between text-lg">
@@ -174,7 +174,7 @@ export default function cv() {
           </div>
         </div>
 
-        <div className="bg-miamiBlue w-full md:w-3/4 lg:w-3/4 mt-8 p-4 md:p-8 rounded-lg shadow-md">
+        <div className="bg-miami-blue w-full md:w-3/4 lg:w-3/4 mt-8 p-4 md:p-8 rounded-lg shadow-md">
           <h2 className="text-3xl mb-4">Certificates and courses</h2>
           <div className="mb-4">
             <div className="flex justify-between text-lg">
@@ -196,7 +196,7 @@ export default function cv() {
           </div>
         </div>
 
-        <div className="bg-miamiBlue w-full md:w-3/4 lg:w-3/4 mt-8 p-4 md:p-8 rounded-lg shadow-md">
+        <div className="bg-miami-blue w-full md:w-3/4 lg:w-3/4 mt-8 p-4 md:p-8 rounded-lg shadow-md">
           <h2 className="text-3xl mb-4">Languages</h2>
           <div className="mb-4 text-lg">
             <p>
@@ -209,7 +209,7 @@ export default function cv() {
           </div>
         </div>
 
-        <a href="/" className="mt-8 text-xl text-miamiPink hover:text-miamiBlue">
+        <a href="/" className="mt-8 text-xl text-miami-pink hover:text-miami-blue">
           Back
         </a>
       </div>

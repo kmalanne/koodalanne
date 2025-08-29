@@ -87,7 +87,7 @@ export const ContactForm: React.FC = () => {
       <div className="w-full max-w-md text-white mb-2">
         Send me an email to{' '}
         <a
-          className="text-miamiPink hover:text-miamiBlue"
+          className="text-miami-pink hover:text-miami-blue"
           href="&#109;&#097;&#105;&#108;&#116;&#111;&#058;&#107;&#111;&#111;&#100;&#097;&#108;&#097;&#110;&#110;&#101;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"
         >
           koodalanne@gmail.com
@@ -96,13 +96,13 @@ export const ContactForm: React.FC = () => {
       </div>
 
       <form className="w-full max-w-md" onSubmit={handleSubmit}>
-        <div className="bg-miamiBlue w-full rounded-lg shadow-md p-4 md:p-8">
+        <div className="bg-miami-blue w-full rounded-lg shadow-md p-4 md:p-8">
           <div className="mb-4">
             <label className="block text-lg font-bold mb-2" htmlFor="name">
               Name
             </label>
-            <input
-              className="shadow appearance-none border rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              <input
+                className="shadow-sm appearance-none border rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-hidden focus:shadow-sm"
               id="name"
               type="text"
               name="name"
@@ -113,12 +113,12 @@ export const ContactForm: React.FC = () => {
 
           <div className="mb-4">
             <label className="block text-lg font-bold mb-2" htmlFor="email">
-              Email <span className="text-miamiPink">*</span>
+              Email <span className="text-miami-pink">*</span>
             </label>
-            <input
-              className={`shadow appearance-none border ${
-                errors.email ? 'border-miamiPink' : 'border-black'
-              } rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline`}
+              <input
+                className={`shadow-sm appearance-none border ${
+                  errors.email ? 'border-miami-pink' : 'border-black'
+                } rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-hidden focus:shadow-sm`}
               id="email"
               type="email"
               name="email"
@@ -132,8 +132,8 @@ export const ContactForm: React.FC = () => {
             <label className="block text-lg font-bold mb-2" htmlFor="organisation">
               Organisation
             </label>
-            <input
-              className="shadow appearance-none border rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              <input
+                className="shadow-sm appearance-none border rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-hidden focus:shadow-sm"
               id="organisation"
               type="text"
               name="organisation"
@@ -144,12 +144,12 @@ export const ContactForm: React.FC = () => {
 
           <div>
             <label className="block text-lg font-bold mb-2" htmlFor="message">
-              Message <span className="text-miamiPink">*</span>
+              Message <span className="text-miami-pink">*</span>
             </label>
-            <textarea
-              className={`shadow appearance-none border ${
-                errors.message ? 'border-miamiPink' : 'border-black'
-              } rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline`}
+              <textarea
+                className={`shadow-sm appearance-none border ${
+                  errors.message ? 'border-miami-pink' : 'border-black'
+                } rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-hidden focus:shadow-sm`}
               id="message"
               name="message"
               maxLength={500}
@@ -175,8 +175,8 @@ export const ContactForm: React.FC = () => {
             <button
               className={`${
                 errors.message || !formData.email || !formData.message
-                  ? 'bg-miamiPink-light border-black cursor-not-allowed'
-                  : 'bg-miamiPink border-miamiPink hover:bg-black hover:text-white hover:border hover:border-miamiBlue'
+                  ? 'bg-miami-pink-light border-black cursor-not-allowed'
+                  : 'bg-miami-pink border-miami-pink hover:bg-black hover:text-white hover:border hover:border-miami-blue'
               } w-full rounded-md inline-block mb-6 mt-6 px-3 py-6 text-center font-bold uppercase border `}
               type="submit"
               disabled={!formData.email && !formData.message}

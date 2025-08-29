@@ -16,10 +16,10 @@ export default function cv() {
     <section id="contact-me">
       <div className="min-h-screen flex flex-col items-center justify-center p-4 md:p-8">
         <div className={pressStart2P.className}>
-          <h1 className="text-4xl text-miamiPink mb-4">Contact me</h1>
+          <h1 className="text-4xl text-miami-pink mb-4">Contact me</h1>
         </div>
         <ContactForm />
-        <a href="/" className="mt-2 text-xl text-miamiPink hover:text-miamiBlue">
+        <a href="/" className="mt-2 text-xl text-miami-pink hover:text-miami-blue">
           Back
         </a>
       </div>
