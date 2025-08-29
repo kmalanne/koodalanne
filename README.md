@@ -5,8 +5,8 @@ koodalanne Oy official web page repository
 Run the development server:
 
 ```bash
-pnpm i
-pnpm dev
+npm i
+npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000).
