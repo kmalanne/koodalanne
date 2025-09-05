@@ -75,7 +75,7 @@ export default function Home() {
               <div>
                 <Image
                   alt="Profile picture of Kai-Mikael Alanne, freelance software developer"
-                  src="/images/face.jpeg"
+                  src="/images/face2.jpeg"
                   width={50}
                   height={50}
                   className="rounded-full"
@@ -159,7 +159,7 @@ export default function Home() {
         <div className="lg:flex lg:justify-center lg:items-center hidden lg:w-2/5 ml-2">
           <Image
             alt="Large profile picture of Kai-Mikael Alanne, freelance software developer"
-            src="/images/face.jpeg"
+            src="/images/face2.jpeg"
             width={500}
             height={500}
             className="rounded-full"
