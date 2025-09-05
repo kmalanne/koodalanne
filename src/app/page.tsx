@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 
 import { pressStart2P } from './font'
 
@@ -101,13 +102,13 @@ export default function Home() {
               </a>
             </p>
             <div className="flex flex-row justify-center items-center">
-              <a
+              <Link
                 href="/cv"
                 className="w-full rounded-md inline-block mb-6 mt-6 px-3 py-6 text-center font-bold uppercase bg-miami-blue border border-black hover:bg-black hover:text-white! hover:border hover:border-miami-pink"
                 aria-label="Go to Curriculum Vitae page"
               >
                 <span className="w-1/1">Curriculum Vitae</span>
-              </a>
+              </Link>
               <div className="flex flex-col justify-center items-center ml-6">
                 <a
                   className="w-5 h-5 mt-2 mb-2 opacity-75 transform hover:scale-110 hover:opacity-100"
@@ -162,7 +163,8 @@ export default function Home() {
             width={500}
             height={500}
             className="rounded-full"
-            priority
+            priority={false}
+            loading="lazy"
           />
         </div>
       </section>
