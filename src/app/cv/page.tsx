@@ -61,15 +61,13 @@ export default function CV() {
             <h2 className="text-3xl mb-4">Bio</h2>
             <div className="mb-4">
               <p>
-                Experienced tech lead and full-stack software developer with a track record in leading
-                cross-functional teams and crafting dynamic, data-driven applications in various
-                domains. I am proficient in frontend and backend technologies, with additional
-                experience in cloud, DevOps engineering, and agile ways of working. Dedicated to
-                driving teams and individuals forward in delivering high-quality software and solving
-                business problems—often by leveraging data and modern AI capabilities—in close
-                collaboration with the client. I am always eager to explore new technologies and
-                domains, including data and AI, to continuously grow and become an even better version
-                of myself.
+                Experienced tech lead and fullstack software developer with a track record in leading cross-
+functional teams and crafting dynamic, data-driven applications in various domains. I am
+proficient in frontend and backend technologies, with additional experience in cloud,
+DevOps engineering, and agile ways of working. Dedicated to driving teams and individuals
+forward in delivering high-quality software and solving business problems—by leveraging
+data and modern AI capabilities—in close collaboration with the client.
+Continuously expanding expertise in emerging technologies.
               </p>
             </div>
           </div>
@@ -82,21 +80,21 @@ export default function CV() {
                 <div>11/2023 -</div>
               </div>
               <div className="text-sm">Helsinki, Finland</div>
-              <p className="mt-4">Freelance software development in a senior/lead position.</p>
-              <div className="mt-4 font-bold text-lg">Confidential 11/2023-</div>
+              <p className="mt-4">Freelance software consultancy in a senior/lead position.</p>
+              <div className="mt-4 font-bold text-lg">Finago Oy 11/2023-</div>
               <p>
-                Lead developer in human resource sector projects in multidisciplinary team. Mobile,
-                web and backend development while guiding the team&apos;s development towards
-                organizational goals. As a lead I was mainly responsible for feature development,
-                improving code quality and practices, helping product owner with specification,
-                solving problems and helping team members with their issues while planning the future
-                architecture and goals. At the same time, I coached multiple new team members in their
-                development journey.
+                Lead developer in business sector projects in a multidisciplinary team. Mobile, web and
+backend development while guiding the team's development towards organizational goals.
+As a lead I was responsible for leading the team&apos;s development efforts doing feature
+development, improving code quality and practices, helping product owner and specialists
+with specification and problem solving. I participated in planning and creating the future
+architecture, roadmap and goals. I also onboarded and coached multiple new team
+members in their development journey.
                 <br />
                 <br />
-                <strong>Skills:</strong> NodeJS, React Native, Expo, React, Typescript, CSS, C#/.NET,
-                ASP.NET Core, SQL, MSSQL, Docker, Azure, Bitbucket, Github, Git, iOS, Android, Jira,
-                Tech lead, AI, Scrum, Software Architecture, Agile
+                <strong>Skills:</strong> NodeJS, React Native, Expo, React, Typescript, CSS, C#/.NET, ASP.NET Core, SQL, MSSQL,
+Docker, Azure, Bitbucket, Github, Git, iOS, Android, Jira, Tech lead, AI, Copilot, Scrum, Software
+Architecture, Agile
               </p>
             </div>
             <div className="mb-6">
@@ -124,7 +122,7 @@ export default function CV() {
                 took care that projects were delivered from idea to production ready products
                 delivering high value for end users while managing the teams and people. I did team
                 leading, project management, defining product vision, specification, architectural
-                planning, full-stack web development, testing, cloud engineering, scrum mastering,
+                planning, fullstack web development, testing, cloud engineering, scrum mastering,
                 problem solving, customer support and selling generating Futurice a high revenue for
                 multiple years.
                 <br />
